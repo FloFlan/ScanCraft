@@ -12,6 +12,35 @@ A Discord bot that monitors multiple Minecraft servers, tracks player activity (
   - List currently online players on a specific server.
   - Show all players that have joined the server along with their total playtime.
   - notifies when a specific player joins or leaves a given server / any monitored server.
+ 
+## Version History
+
+  ### v1.0.0
+- **Initial Release**
+  - Basic Minecraft server monitoring using the MCStatus API.
+  - Commands: `!status`, `!players`, `!allplayers`, `!list`.
+
+  ### v1.1.0
+- **Server Management Enhancements**
+  - Added administrative commands: 
+    - `!addserver <IP> <Server Name>`
+    - `!removeserver <IP/ServerName>`
+    - `!rename <IP/ServerName> <newname>`
+    - `!reset`
+  - Persistent storage of server data via a JSON file.
+
+  ### v1.2.0
+- **Player Tracking Features**
+  - Added per‑server tracking command: `!track <playername> <IP/ServerName>`.
+  - Added global tracking command: `!fulltrack <playername>`.
+  - Notifies the subscriber when the tracked player joins or leaves the server.
+
+  ### v1.3.0
+- **Improvements & Bug Fixes**
+  - Optimized background tasks to avoid iteration errors.
+  - Improved embed formatting and notification messages.
+  - Minor bug fixes and performance enhancements.
+
 
 ## Requirements
 
