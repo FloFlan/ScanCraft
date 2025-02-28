@@ -2,6 +2,7 @@
 
 ScanCraft is a Discord bot that monitors multiple Minecraft servers, tracks player activity (including total playtime), and sends notifications when specific players join or leave a server.
 
+
 ## Features
 
 ### Server Monitoring
@@ -24,6 +25,7 @@ ScanCraft is a Discord bot that monitors multiple Minecraft servers, tracks play
 - **Rename Server:** Change the display name of a monitored server.
 - **Reset:** Clear all tracked server data and player histories.
 
+
 ## Version History
 
 ### v1.0.0 - Initial Release
@@ -34,7 +36,7 @@ ScanCraft is a Discord bot that monitors multiple Minecraft servers, tracks play
   - **All Players:** Show all players who joined (with playtime).
   - **Server List:** List all monitored servers.
 
-### v1.1.0 - Server Management Enhancements
+#### v1.1.0 - Server Management Enhancements
 - Added administrative commands:
   - **Add Server:** Add a new Minecraft server.
   - **Remove Server:** Remove an existing server.
@@ -42,11 +44,11 @@ ScanCraft is a Discord bot that monitors multiple Minecraft servers, tracks play
   - **Reset:** Clear all tracked data.
 - Persistent storage of server data via a JSON file.
 
-### v1.2.0 - Player Tracking Features
+#### v1.2.0 - Player Tracking Features
 - Introduced per‑server tracking to notify users when a specific player joins or leaves a server.
 - Added global tracking to notify users when a specific player joins or leaves any monitored server.
 
-### v1.3.0 - Improvements & Bug Fixes
+#### v1.3.0 - Improvements & Bug Fixes
 - Optimized background tasks to prevent iteration errors.
 - Improved formatting of status updates and notifications.
 - Minor bug fixes and performance enhancements.
