@@ -20,7 +20,7 @@ A Discord bot that monitors multiple Minecraft servers, tracks player activity (
   - Basic Minecraft server monitoring using the MCStatus API.
   - Commands: `!status`, `!players`, `!allplayers`, `!list`.
 
-  ### v1.1.0
+  ## v1.1.0
 - **Server Management Enhancements**
   - Added administrative commands: 
     - `!addserver <IP> <Server Name>`
@@ -29,13 +29,13 @@ A Discord bot that monitors multiple Minecraft servers, tracks player activity (
     - `!reset`
   - Persistent storage of server data via a JSON file.
 
-  ### v1.2.0
+  ## v1.2.0
 - **Player Tracking Features**
   - Added per‑server tracking command: `!track <playername> <IP/ServerName>`.
   - Added global tracking command: `!fulltrack <playername>`.
   - Notifies the subscriber when the tracked player joins or leaves the server.
 
-  ### v1.3.0
+  ## v1.3.0
 - **Improvements & Bug Fixes**
   - Optimized background tasks to avoid iteration errors.
   - Improved embed formatting and notification messages.
