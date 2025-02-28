@@ -9,20 +9,9 @@ A Discord bot that monitors multiple Minecraft servers, tracks player activity (
   - Displays real-time status updates (online/offline, player count, player list, server version, and MOTD) in dedicated Discord channels.
 
 - **Player Tracking:**
-  - **!players `<IP/ServerName>`**: List currently online players on a specific server.
-  - **!allplayers `<IP/ServerName>`**: Show all players that have joined the server along with their total playtime.
-  - **!track `<playername> <IP/ServerName>`**: Get notified when a specific player joins or leaves a given server.
-  - **!fulltrack `<playername>`**: Get notified when a specific player joins or leaves any monitored server.
-
-- **Server Management:**
-  - **!addserver `<IP> <Server Name>`**: Add a new Minecraft server for monitoring (Admin only).
-  - **!removeserver `<IP/ServerName>`**: Remove a server from monitoring (Admin only).
-  - **!rename `<IP/ServerName> <newname>`**: Rename a monitored server (Admin only).
-  - **!list**: List all currently monitored servers.
-  - **!reset**: Clear all tracked servers and player data (Admin only).
-
-- **Status Summary:**
-  - **!status**: Display a summary of all monitored servers.
+  - List currently online players on a specific server.
+  - Show all players that have joined the server along with their total playtime.
+  - notifies when a specific player joins or leaves a given server / any monitored server.
 
 ## Requirements
 
