@@ -1,4 +1,4 @@
-# Minecraft Server Monitor Discord Bot
+# ScanCraft
 
 A Discord bot that monitors multiple Minecraft servers, tracks player activity (including total playtime), and notifies you when specific players join or leave a server.
 
